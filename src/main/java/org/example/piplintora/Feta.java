@@ -1,2 +1,5 @@
-package org.example.piplintora;public class Feta {
-}
+package org.example.piplintora;
+
+import java.math.BigDecimal;
+
+public record Feta(String description, BigDecimal id) {}
